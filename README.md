@@ -35,20 +35,29 @@ Final_project/
 
 ---
 
-## ⚙️ 环境安装
+## ⚙️ 环境安装与配置
 
-项目已根据您的本地环境进行了适配，请在您的 `DP_learn` Conda 环境下安装依赖库：
+推荐使用 Conda 创建并管理 Python 虚拟环境（建议使用 Python 3.9 或 3.10 版本）：
 
 ```bash
-# 激活您的 Conda 环境
-conda activate DP_learn
+# 1. 创建全新的 Conda 虚拟环境
+conda create -n slang_rec python=3.10 -y
 
-# 切换到项目根目录
-cd D:\PythonProject\Engine_study\Final_project
+# 2. 激活虚拟环境
+conda activate slang_rec
 
-# 安装项目依赖 (包含 transformers, jieba, matplotlib, seaborn 等)
+# 3. 切换到项目根目录
+cd Chinese-Internet-Slang-Recognition
+
+# 4. 安装依赖库 (包含 transformers, jieba, matplotlib, seaborn, scikit-learn 等)
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
+
+> [!TIP]
+> 如果您拥有 NVIDIA 显卡并希望使用 GPU 加速模型训练（BiLSTM 与 BERT），请根据您的 CUDA 版本，提前前往 [PyTorch 官网](https://pytorch.org/get-started/locally/) 安装支持 CUDA 的 PyTorch 版本。例如：
+> ```bash
+> pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+> ```
 
 ---
 
