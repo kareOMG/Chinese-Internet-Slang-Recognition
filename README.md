@@ -1,11 +1,11 @@
-# 基于 BERT 的中文互联网语言风格识别研究 (期末项目)
-## Research on Chinese Internet Language Style Recognition based on BERT (Final Project)
+# 基于 BERT 的中文互联网语言风格识别研究
+## Research on Chinese Internet Language Style Recognition based on BERT
 
-[中文说明 (Chinese Version)](#基于-bert-的中文互联网语言风格识别研究-期末项目) | [English Documentation](#research-on-chinese-internet-language-style-recognition-based-on-bert-final-project)
+[中文说明 (Chinese Version)](#基于-bert-的中文互联网语言风格识别研究) | [English Documentation](#research-on-chinese-internet-language-style-recognition-based-on-bert)
 
 ---
 
-# 基于 BERT 的中文互联网语言风格识别研究 (期末项目)
+# 基于 BERT 的中文互联网语言风格识别研究
 
 本项目使用 Hugging Face 上的 `GaryYang123/zh-meme-sft-8k` 数据集，设计并实现了基于 BERT 的中文互联网语言风格（抽象梗、社交吐槽语体）识别系统。本项目包含三种不同复杂度的模型：**TF-IDF + 逻辑回归**、**BiLSTM + Attention**、以及 **BERT (RoBERTa)** 微调模型，并提供了对比与交互预测环境。
 
@@ -113,7 +113,7 @@ python main.py
 
 ## 📊 评估指标与结果产出
 
-模型训练完成后，您可以在 `output/` 文件夹中找到以下生成的期末报告支撑材料：
+模型训练完成后，您可以在 `output/` 文件夹中找到以下生成的评估分析材料：
 1.  **`evaluation_report.txt`**：自动生成包含准确率(Accuracy)、精确率(Precision)、召回率(Recall)和 F1-Score 的详细指标对比表格。
 2.  **`model_metrics_comparison.png`**：三款模型的评估指标对比柱状图。
 3.  **`confusion_matrices.png`**：三款模型的预测混淆矩阵。
@@ -134,7 +134,7 @@ python main.py
 ---
 ---
 
-# Research on Chinese Internet Language Style Recognition based on BERT (Final Project)
+# Research on Chinese Internet Language Style Recognition based on BERT
 
 This project utilizes the `GaryYang123/zh-meme-sft-8k` dataset from Hugging Face to design and implement a classification system for Chinese internet language styles (meme slang, social media roasting, etc.). The project includes three models with varying levels of complexity: **TF-IDF + Logistic Regression**, **BiLSTM + Attention**, and fine-tuned **BERT (RoBERTa)**, along with evaluation and interactive prediction CLI scripts.
 
