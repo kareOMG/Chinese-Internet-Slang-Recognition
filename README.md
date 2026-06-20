@@ -102,3 +102,17 @@ python main.py
 2.  **`model_metrics_comparison.png`**：三款模型的评估指标对比柱状图。
 3.  **`confusion_matrices.png`**：三款模型的预测混淆矩阵。
 4.  **`training_curves.png`**：深度学习模型训练过程中的 Loss 下降和 Accuracy 上升曲线图。
+
+---
+
+## 🤝 数据来源致谢与开源声明
+
+本项目在开发过程中合理使用并遵守了外部开源成果，相关声明如下：
+
+1. **数据集来源**：本项目的数据预处理基于 Hugging Face 社区中由 **GaryYang123** 开源的 [zh-meme-sft-8k](https://huggingface.co/datasets/GaryYang123/zh-meme-sft-8k) 数据集。
+2. **许可协议说明**：
+   * 该数据集原始许可协议为 **MIT License**。
+   * 本项目完全遵循其开源协议，在代码、README 及报告中对原作者进行了明确归属与引用。
+   * 本项目自身的全部源代码及技术文档同样采用 **MIT License** 开源，允许任何个人或团队自由学习、复制、修改及再分发。
+
+感谢原作者对中文互联网梗文化研究做出的开源贡献！
