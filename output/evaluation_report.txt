@@ -1,0 +1,39 @@
+中文互联网语言风格识别研究 - 模型对比报告
+==================================================
+
+              模型名称 Accuracy (准确率) Precision (精确率) Recall (召回率) F1-Score (F1值)
+       TF-IDF + LR         0.9246          0.9251       0.9238         0.9245
+BiLSTM + Attention         0.9479          0.9542       0.9408         0.9474
+    BERT (RoBERTa)         0.9662          0.9584       0.9746         0.9664
+
+详细分类报告:
+
+[TF-IDF + LR] 分类报告:
+                  precision    recall  f1-score   support
+
+ 日常/标准 (Label 0)       0.92      0.93      0.92       710
+网络梗/抽象 (Label 1)       0.93      0.92      0.92       709
+
+        accuracy                           0.92      1419
+       macro avg       0.92      0.92      0.92      1419
+    weighted avg       0.92      0.92      0.92      1419
+
+[BiLSTM + Attention] 分类报告:
+                  precision    recall  f1-score   support
+
+ 日常/标准 (Label 0)       0.94      0.95      0.95       710
+网络梗/抽象 (Label 1)       0.95      0.94      0.95       709
+
+        accuracy                           0.95      1419
+       macro avg       0.95      0.95      0.95      1419
+    weighted avg       0.95      0.95      0.95      1419
+
+[BERT (RoBERTa)] 分类报告:
+                  precision    recall  f1-score   support
+
+ 日常/标准 (Label 0)       0.97      0.96      0.97       710
+网络梗/抽象 (Label 1)       0.96      0.97      0.97       709
+
+        accuracy                           0.97      1419
+       macro avg       0.97      0.97      0.97      1419
+    weighted avg       0.97      0.97      0.97      1419

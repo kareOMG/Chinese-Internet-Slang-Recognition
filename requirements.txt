@@ -1,0 +1,9 @@
+transformers
+jieba
+matplotlib
+seaborn
+scikit-learn
+pandas
+numpy
+tqdm
+datasets
